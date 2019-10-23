@@ -107,7 +107,7 @@ const todos = [
     {
         id:3,
         text: 'Study Javascript',
-        isCompleted:false
+        isCompleted:true
     }
 ]
 
@@ -129,3 +129,45 @@ for (let i = 0; i < 10; i++) {
 for (let i = 0; i < 10; i++) {
     console.log(`For loop Number: ${i}`);
 }
+
+
+//While Loops
+let i = 0;
+while(i < 15) {
+    console.log(`While loop Number: ${i}`);
+    i++;
+} 
+
+//Looping through arrays
+for(let i = 0; i < todos.length;i++){
+    console.log(todos[i].text);
+}
+
+
+for(let todo of todos){
+    console.log(todo.text)
+}
+
+// forEach,map,filter 
+//foreach
+todos.forEach(function(todo){
+    console.log(todo.text);
+});
+
+//map
+//return another array
+const todoText = todos.map(function(todo){
+    return todo.text;
+});
+console.log(todoText)
+//filter
+const todocomp = todos.filter(function(todo){
+    return todo.isCompleted === true;
+}).map(function(todo){
+    return todo.text;
+})
+
+console.log(todocomp)
+
+
+//conditionals
