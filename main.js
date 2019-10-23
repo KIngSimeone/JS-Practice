@@ -225,8 +225,23 @@ switch(color) {
     default:
         console.log('color is not red or blue');
         break;
-
+}
 //Functions
+function addNums(num1 = 1,num2 = 1){
+    return num1+num2
+};
+
+
+console.log(addNums())
+
+console.log(addNums(10,20));
+
+//arrow funvtions
+const newNums = (num1 = 1,num2 = 1) => {
+    return num1+num2
+};
+
+console.log(newNums(2,7));
+
 
     
-}
