@@ -205,3 +205,28 @@ if (x > 21 && g > 40) {
 }
 
 //tenary operator
+//shorthand for conditions
+// ? == then , : == else
+
+
+const r = 10;
+const color = r > 10 ? 'red': 'blue';
+
+console.log(color)
+
+//switches
+switch(color) {
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'blue':
+        console.log('color is blue');
+        break;
+    default:
+        console.log('color is not red or blue');
+        break;
+
+//Functions
+
+    
+}
