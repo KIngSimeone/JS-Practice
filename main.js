@@ -86,4 +86,33 @@ console.log(person.address.city)
 const { firstname,lastname, address:{ city }}= person;
 
 console.log(firstname)
-console.log(city)
+console.log(city) 
+
+person.email = 'kalson@gmail.com'
+person.club = 'Barcelona'
+
+console.log(person)
+
+const todos = [
+    {
+        id:1,
+        text: 'Go to work',
+        isCompleted:true
+    },
+    {
+        id:2,
+        text: 'Study Django',
+        isCompleted:false
+    },
+    {
+        id:3,
+        text: 'Study Javascript',
+        isCompleted:false
+    }
+]
+
+console.log(todos)
+
+console.log(todos[1].text)
+
+//Convert to JS
