@@ -116,3 +116,9 @@ console.log(todos)
 console.log(todos[1].text)
 
 //Convert to JS
+
+const todoJSON = JSON.stringify(todos)
+console.log(todoJSON)
+
+
+//For loops
