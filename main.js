@@ -171,3 +171,37 @@ console.log(todocomp)
 
 
 //conditionals
+// double equals to does not match data type
+//triple equals to matches datatypes
+const sim = 10
+const x = 22
+const g = 41;
+
+
+if (sim == '10'){
+    console.log('sim is 10');
+}
+if (sim === 10){
+    console.log('sim is 10');
+}
+if (x === 10){
+    console.log('x is 10');
+} else if (x >'10'){
+    console.log('x is greater than 10')
+    
+}else{
+    console.log('x is less than 10');
+}
+
+//multiple if statements
+
+//or = ||
+if (x > 21 || g > 40) {
+    console.log(' x is more 21 than  or g is more thann 40')
+}
+// and = &&
+if (x > 21 && g > 40) {
+    console.log(' x is more 21 than  or g is more thann 40')
+}
+
+//tenary operator
